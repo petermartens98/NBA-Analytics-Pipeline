@@ -8,7 +8,7 @@ Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, 
 # NBA Player Report Visulations Output Example:
 
 ![image](https://user-images.githubusercontent.com/87671757/216218031-e24163fd-ed3a-4ca7-86f0-b5485a0cb23e.png)
-![image](https://user-images.githubusercontent.com/87671757/216218291-b570e616-12f7-45c3-8600-5004f6c8a62d.png)
+![image](https://user-images.githubusercontent.com/87671757/216218377-ca8740ea-2d17-42de-a8ea-6d081fd4d08e.png)
 
 # NBA Team Report Visualization Output Example:
 
