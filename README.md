@@ -3,7 +3,7 @@ Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, 
 
 # Score Predictions Output Example:
 
-![image](https://user-images.githubusercontent.com/87671757/216233268-6ff9e9a6-cf40-4a38-aa5c-34384dc2fa8e.png)
+![image](https://user-images.githubusercontent.com/87671757/216246757-3bc3b663-6cde-45f7-98c9-d797212819b2.png)
 
 # NBA Player Report Visulations Output Example:
 
