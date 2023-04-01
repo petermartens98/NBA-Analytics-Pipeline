@@ -1,7 +1,7 @@
 # NBA-Analytics-Pipeline
 Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, then statistically analyzes and visualizes into multiple team, player and league-wide reports, as well as predictivelly modelling and statistically correlating various stats.
 
-<b>Link to NBA Analytics Flask App repo:<b> https://github.com/petermartens98/NBA-Analytics-Flask-App
+<b>Link to NBA Analytics Flask App repo:<b> https://github.com/petermartens98/NBA-Flask-Applications
 
 # Score Predictions Output Example:
 
