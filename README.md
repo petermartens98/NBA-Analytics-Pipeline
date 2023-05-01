@@ -4,8 +4,11 @@ Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, 
 <b>Link to NBA Flask Applications repo:<b> https://github.com/petermartens98/NBA-Flask-Applications
 <b>Link to NBA Shooting Heatmaps repo:<b> 
 
-# File Desctiptions
+## Imports Utilized
+
+## File Desctiptions and Example Screenshots
 ### NBA_Injuries_Webscraping.ipynb
+### NBA_Live_Scores_Webscraping.ipynb
 
 # Score Predictions Output Example:
 
