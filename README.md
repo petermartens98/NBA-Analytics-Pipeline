@@ -33,6 +33,9 @@ Overall, this function retrieves the latest information about NBA games being pl
 ## NBA_Players_Webscraping_to_SQLite.ipynb
 This code is a Python script that demonstrates webscraping data from a website, storing it in a Pandas DataFrame, and then inserting that data into an SQLite database. Specifically, the script scrapes NBA player data from ESPN.com for all teams in the league, stores it in a DataFrame, and then converts certain columns to numeric values (height to inches, weight to pounds, and salary to an integer). The script then creates an SQLite database with a table named "NBA_Players" and inserts the player data from the DataFrame into that table. Finally, the script commits the changes to the database and closes any open cursors.
 
+## NBA_Score_Predictions_Pipeline_V1.ipynb
+![image](https://user-images.githubusercontent.com/87671757/217118003-b9600697-8872-49d3-abb3-b802d250dc68.png)
+
 ## NBA_Team_Analytics_Pipeline_V2.ipynb
 #### Data Webscraping
 This code segment scrapes NBA boxscore data for the 2022-2023 regular season from stats.nba.com and basketball-reference.com using a request to a specific URL with parameters to filter the data. It retrieves the data in JSON format and converts it into a pandas DataFrame. The DataFrame is then modified to include additional columns with statistics related to field goals made, attempted, and points, as well as opponent team and opponent points, as well as other more advanced statistics such as distance and shot type. It also adds columns for the team's conference, whether the game was played at home or away, and a formatted date and matchup string. 
@@ -49,10 +52,6 @@ This code segment scrapes NBA boxscore data for the 2022-2023 regular season fro
 ##### def NBA_stat_boxplots(stat, sort_by='mean', asc=True) - visualize by team their comparing boxplots for a given stat
 ![image](https://user-images.githubusercontent.com/87671757/235541852-8417ae48-0d5b-46fa-80d0-737c115f1636.png)
 
-
-# Score Predictions Output Example:
-
-![image](https://user-images.githubusercontent.com/87671757/217118003-b9600697-8872-49d3-abb3-b802d250dc68.png)
 
 # NBA Player Report Visulations Output Example:
 
