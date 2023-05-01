@@ -4,10 +4,9 @@ Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, 
 <b>Link to NBA Flask Applications repo:<b> https://github.com/petermartens98/NBA-Flask-Applications
 <b>Link to NBA Shooting Heatmaps repo:<b> 
 
-## Imports Utilized
-
 # File Desctiptions and Example Screenshots
 ## NBA_Injuries_Webscraping.ipynb
+#### Imports Utilized
 This is a Python function that scrapes the daily NBA injury report from the CBS Sports website and returns the data as a Pandas DataFrame. The function uses the BeautifulSoup and Selenium libraries to parse the HTML and interact with the website.
 
 The function starts by setting some options for the Selenium webdriver, including running in headless mode (without opening a visible browser window). It then defines the URL to scrape and the location of the Chrome driver on the user's computer.
@@ -17,7 +16,18 @@ The function then creates a new webdriver instance, sets a page load timeout, an
 For each team, the function loops through the player injury data and creates a dictionary of the relevant fields (team, player name, position, injury, and status). It then appends this dictionary to a list of all player data for all teams.
 
 Once all the data has been collected, the function quits the webdriver and returns the data as a sorted Pandas DataFrame, with one row per player injury.
-### NBA_Live_Scores_Webscraping.ipynb
+
+## NBA_Live_Scores_Webscraping.ipynb
+#### Imports Utilized: Pandas, NumPy, Requests, BeautifulSoup, and Selenium
+This code defines a function called "today_matchups" that uses web scraping to retrieve information about NBA games that are being played today from ESPN's website.
+
+The function begins by creating a URL using the current date, which is obtained using the datetime module. A Chrome webdriver is then set up with Selenium and the page is loaded using the URL. The page source HTML is then parsed using BeautifulSoup.
+
+The function then retrieves the date and day of the week using datetime, and finds all of the divs on the page that contain information about each game. It iterates over these divs to extract relevant data, such as the teams playing, the time of the game, the current score, and the betting odds. The data is stored in a dictionary for each game, and all of these dictionaries are appended to a list called "games_data".
+
+Once all of the data has been extracted, it is stored in a Pandas DataFrame, which is returned by the function. The Chrome webdriver is then closed to avoid resource leakage.
+
+Overall, this function retrieves the latest information about NBA games being played today, and stores it in a DataFrame that can be used for further analysis or visualization.
 
 # Score Predictions Output Example:
 
