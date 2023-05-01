@@ -2,6 +2,7 @@
 Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, then statistically analyzes and visualizes into multiple team, player and league-wide reports, as well as predictivelly modelling and statistically correlating various stats.
 ## Related Projects
 <b>Link to NBA Flask Applications repo:<b> https://github.com/petermartens98/NBA-Flask-Applications
+
 <b>Link to NBA Shooting Heatmaps repo:<b> 
 
 # File Desctiptions and Example Screenshots
@@ -9,7 +10,7 @@ Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, 
 #### Imports Utilized
 This is a Python function that scrapes the daily NBA injury report from the CBS Sports website and returns the data as a Pandas DataFrame. The function uses the BeautifulSoup and Selenium libraries to parse the HTML and interact with the website.
 
-The function starts by setting some options for the Selenium webdriver, including running in headless mode (without opening a visible browser window). It then defines the URL to scrape and the location of the Chrome driver on the user's computer.
+The function starts by setting some options for the Selenium webdriver, including running in headless mode (without opening a visible browser window). It then defines the URL to scrape and the location of the Chrome driver on the user's computer. 
 
 The function then creates a new webdriver instance, sets a page load timeout, and navigates to the specified URL. It retrieves the page source HTML and uses BeautifulSoup to find the sections of the page containing injury data for each team.
 
@@ -28,6 +29,9 @@ The function then retrieves the date and day of the week using datetime, and fin
 Once all of the data has been extracted, it is stored in a Pandas DataFrame, which is returned by the function. The Chrome webdriver is then closed to avoid resource leakage.
 
 Overall, this function retrieves the latest information about NBA games being played today, and stores it in a DataFrame that can be used for further analysis or visualization.
+
+## NBA_Players_Webscraping_to_SQLite.ipynb
+This code is a Python script that demonstrates webscraping data from a website, storing it in a Pandas DataFrame, and then inserting that data into an SQLite database. Specifically, the script scrapes NBA player data from ESPN.com for all teams in the league, stores it in a DataFrame, and then converts certain columns to numeric values (height to inches, weight to pounds, and salary to an integer). The script then creates an SQLite database with a table named "NBA_Players" and inserts the player data from the DataFrame into that table. Finally, the script commits the changes to the database and closes any open cursors.
 
 # Score Predictions Output Example:
 
