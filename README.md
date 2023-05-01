@@ -1,13 +1,13 @@
 # NBA-Analytics-Pipeline
 Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, then statistically analyzes and visualizes into multiple team, player and league-wide reports, as well as predictivelly modelling and statistically correlating various stats.
-
+## Related Projects
 <b>Link to NBA Flask Applications repo:<b> https://github.com/petermartens98/NBA-Flask-Applications
 <b>Link to NBA Shooting Heatmaps repo:<b> 
 
 ## Imports Utilized
 
-## File Desctiptions and Example Screenshots
-### NBA_Injuries_Webscraping.ipynb
+# File Desctiptions and Example Screenshots
+## NBA_Injuries_Webscraping.ipynb
 This is a Python function that scrapes the daily NBA injury report from the CBS Sports website and returns the data as a Pandas DataFrame. The function uses the BeautifulSoup and Selenium libraries to parse the HTML and interact with the website.
 
 The function starts by setting some options for the Selenium webdriver, including running in headless mode (without opening a visible browser window). It then defines the URL to scrape and the location of the Chrome driver on the user's computer.
