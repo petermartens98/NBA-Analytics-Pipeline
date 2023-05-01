@@ -47,9 +47,9 @@ This code segment scrapes NBA boxscore data for the 2022-2023 regular season fro
 
 #### Visualization Functions
 ##### def nba_fg_by_dist() - visualize fg% by differing distances for the whole NBA at a given time
-![image](https://user-images.githubusercontent.com/87671757/235541363-44827d57-2728-401e-821f-0a5a4d058930.png)
+or 
 ##### def team_fg_by_dist(abbr) - visualize fg% by differing distances for a given team at a given time
-![image](https://user-images.githubusercontent.com/87671757/235541511-17b85615-4fb5-4c2f-bf1b-f1b9889beee5.png)
+![image](https://user-images.githubusercontent.com/87671757/235541363-44827d57-2728-401e-821f-0a5a4d058930.png)
 
 ##### def NBA_stat_boxplots(stat, sort_by='mean', asc=True) - visualize by team their comparing boxplots for a given stat
 ![image](https://user-images.githubusercontent.com/87671757/235541852-8417ae48-0d5b-46fa-80d0-737c115f1636.png)
