@@ -52,6 +52,12 @@ This code segment scrapes NBA boxscore data for the 2022-2023 regular season fro
 ##### def NBA_stat_boxplots(stat, sort_by='mean', asc=True) - visualize by team their comparing boxplots for a given stat
 ![image](https://user-images.githubusercontent.com/87671757/235541852-8417ae48-0d5b-46fa-80d0-737c115f1636.png)
 
+##### def plus_minus_plot(team_abbr)
+![image](https://user-images.githubusercontent.com/87671757/235542379-067a2a60-69d2-4c7d-b7da-f77749fcac0b.png)
+
+##### def scored_allowed_compare(team_a_abbr, team_b_abbr)
+![image](https://user-images.githubusercontent.com/87671757/235542460-a86dee52-fa7e-4b8b-b68c-4484f896182d.png)
+
 
 # NBA Player Report Visulations Output Example:
 
