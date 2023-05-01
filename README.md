@@ -5,6 +5,8 @@ Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, 
 
 <b>Link to NBA Shooting Heatmaps repo: <b> https://github.com/petermartens98/NBA-Shooting-Heatmaps
 
+<b>Link to NBA Performance vs Salary Regression Anlaysis repo: <b>https://github.com/petermartens98/Salary-and-Performance-Regression-Analysis-for-2012-to-2018-NBA-Data
+
 # File Desctiptions and Example Screenshots
 ## NBA_Injuries_Webscraping.ipynb
 #### Imports Utilized
