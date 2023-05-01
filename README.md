@@ -35,7 +35,20 @@ This code is a Python script that demonstrates webscraping data from a website, 
 
 ## NBA_Team_Analytics_Pipeline_V2.ipynb
 #### Data Webscraping
-This code segment scrapes NBA boxscore data for the 2022-2023 regular season from stats.nba.com and www.basketball-reference.com using a request to a specific URL with parameters to filter the data. It retrieves the data in JSON format and converts it into a pandas DataFrame. The DataFrame is then modified to include additional columns with statistics related to field goals made, attempted, and points, as well as opponent team and opponent points. It also adds columns for the team's conference, whether the game was played at home or away, and a formatted date and matchup string. 
+This code segment scrapes NBA boxscore data for the 2022-2023 regular season from stats.nba.com and basketball-reference.com using a request to a specific URL with parameters to filter the data. It retrieves the data in JSON format and converts it into a pandas DataFrame. The DataFrame is then modified to include additional columns with statistics related to field goals made, attempted, and points, as well as opponent team and opponent points, as well as other more advanced statistics such as distance and shot type. It also adds columns for the team's conference, whether the game was played at home or away, and a formatted date and matchup string. 
+
+#### Correlation Heatmap for Team Average DF
+![image](https://user-images.githubusercontent.com/87671757/235541616-6c0d92de-e570-4bcb-98b9-d375dc16c75b.png)
+
+#### Visualization Functions
+##### def nba_fg_by_dist() - visualize fg% by differing distances for the whole NBA at a given time
+![image](https://user-images.githubusercontent.com/87671757/235541363-44827d57-2728-401e-821f-0a5a4d058930.png)
+##### def team_fg_by_dist(abbr) - visualize fg% by differing distances for a given team at a given time
+![image](https://user-images.githubusercontent.com/87671757/235541511-17b85615-4fb5-4c2f-bf1b-f1b9889beee5.png)
+
+##### def NBA_stat_boxplots(stat, sort_by='mean', asc=True) - visualize by team their comparing boxplots for a given stat
+![image](https://user-images.githubusercontent.com/87671757/235541852-8417ae48-0d5b-46fa-80d0-737c115f1636.png)
+
 
 # Score Predictions Output Example:
 
