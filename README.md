@@ -9,7 +9,7 @@ Python ETL Pipeline that web-scrapes up-to-date NBA data from multiple sources, 
 
 # File Desctiptions and Example Screenshots
 ## NBA_Injuries_Webscraping.ipynb
-#### Imports Utilized
+#### Imports Utilized: Pandas, Selenium, BeautifulSoup
 This is a Python function that scrapes the daily NBA injury report from the CBS Sports website and returns the data as a Pandas DataFrame. The function uses the BeautifulSoup and Selenium libraries to parse the HTML and interact with the website.
 
 The function starts by setting some options for the Selenium webdriver, including running in headless mode (without opening a visible browser window). It then defines the URL to scrape and the location of the Chrome driver on the user's computer. 
@@ -33,9 +33,11 @@ Once all of the data has been extracted, it is stored in a Pandas DataFrame, whi
 Overall, this function retrieves the latest information about NBA games being played today, and stores it in a DataFrame that can be used for further analysis or visualization.
 
 ## NBA_Players_Webscraping_to_SQLite.ipynb
+#### Imports Utilized: SQLite3, Pandas
 This code is a Python script that demonstrates webscraping data from a website, storing it in a Pandas DataFrame, and then inserting that data into an SQLite database. Specifically, the script scrapes NBA player data from ESPN.com for all teams in the league, stores it in a DataFrame, and then converts certain columns to numeric values (height to inches, weight to pounds, and salary to an integer). The script then creates an SQLite database with a table named "NBA_Players" and inserts the player data from the DataFrame into that table. Finally, the script commits the changes to the database and closes any open cursors.
 
 ## NBA_Score_Predictions_Pipeline_V1.ipynb
+#### Imports Utilized: Requests, BeautifulSoup, Selenium, Pandas, MatPlotLib, StatsModels, NumPy, Math, Statistics, Radnom
 ![image](https://user-images.githubusercontent.com/87671757/217118003-b9600697-8872-49d3-abb3-b802d250dc68.png)
 
 ## NBA_Team_Analytics_Pipeline_V2.ipynb
