@@ -80,7 +80,25 @@ or
   ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/48585838-4b79-4d1f-8935-e53df2d0aa6e)
 
 ##### Team Average Reression (statx vs staty) Plot and Analysis Function
- 
+ ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/26d8de33-07ef-4106-b9e1-9fae038a64c8)
+
+##### def multi_len_reg()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/d32a1a4a-b0e0-421c-8bc4-0705a26b9d85)
+
+ ##### 3D Scatter Plot Function
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/5b3b16e7-cce5-468b-8b16-3d85f0fac334)
+
+##### R2 Comparison from Y Function
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/342bbe9e-2218-4fde-befd-91ed17a5977b)
+
+##### def team_stat_hist_compare()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/23098363-58ce-4dca-9cc5-4d2df8d3fa92)
+
+##### def team_stat_kde_compare()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/90f3d8d8-6f9d-4d2a-81ce-b73bd866dadd)
+
+##### Guassian Game Simulations Function 
+![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/09479ccb-1ed0-4ea8-9a29-3d219ad82822)
 
 #### NBA Team Report Visualization Output Example:
 
