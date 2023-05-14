@@ -74,7 +74,7 @@ or
  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/8b43e86f-17c5-464d-869d-793199f9837d)
 
 ##### def trend_plot_scores()
-  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/da4d9008-6040-4a69-8a5d-3e10f2638842)
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/9e30ef0b-0cb9-4d14-8424-c5d3e87ab826)
 
 ##### def shot_pies() ~ Scoring Distribution 
   ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/48585838-4b79-4d1f-8935-e53df2d0aa6e)
@@ -93,6 +93,3 @@ or
 ![image](https://user-images.githubusercontent.com/87671757/216218031-e24163fd-ed3a-4ca7-86f0-b5485a0cb23e.png)
 ![image](https://user-images.githubusercontent.com/87671757/216218377-ca8740ea-2d17-42de-a8ea-6d081fd4d08e.png)
 
-# Statistical Regression Anlysis/Visualization Output Example:
-
-![image](https://user-images.githubusercontent.com/87671757/216218923-9181a857-1d5c-49b6-95e2-df7b19cc50fb.png)
