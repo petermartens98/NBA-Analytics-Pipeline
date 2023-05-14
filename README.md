@@ -45,6 +45,13 @@ This code segment scrapes NBA boxscore data for the 2022-2023 regular season fro
 #### Correlation Heatmap for Team Average DF
 ![image](https://user-images.githubusercontent.com/87671757/235541616-6c0d92de-e570-4bcb-98b9-d375dc16c75b.png)
 
+#### Points Scored vs Rebound Gained Regression Analysis 
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/cefdf60f-1c0b-4779-9d03-aac381f4d6d9)
+
+#### Points Scored vs Assists Gained (Wins vs Losses) Regression Analysis 
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/c1b364f0-5ff6-4dbf-b27a-5cedc003122d)
+
+  
 #### Visualization Functions
 ##### def nba_fg_by_dist() - visualize fg% by differing distances for the whole NBA at a given time
 or 
@@ -60,6 +67,20 @@ or
 ##### def scored_allowed_compare(team_a_abbr, team_b_abbr)
 ![image](https://user-images.githubusercontent.com/87671757/235542460-a86dee52-fa7e-4b8b-b68c-4484f896182d.png)
 
+##### def rebounds_compares()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/79c3c06a-b2d3-48fb-bccd-fc266a3a9d27)
+
+##### def line_plot_scores()
+ ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/8b43e86f-17c5-464d-869d-793199f9837d)
+
+##### def trend_plot_scores()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/da4d9008-6040-4a69-8a5d-3e10f2638842)
+
+##### def shot_pies() ~ Scoring Distribution 
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/48585838-4b79-4d1f-8935-e53df2d0aa6e)
+
+##### Team Average Reression (statx vs staty) Plot and Analysis Function
+ 
 
 #### NBA Team Report Visualization Output Example:
 
