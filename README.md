@@ -105,8 +105,43 @@ or
 ![image](https://user-images.githubusercontent.com/87671757/216219222-f99764e9-e5b8-4450-929f-6c8b9c97a84c.png)
 ![image](https://user-images.githubusercontent.com/87671757/216219308-b41a6362-9866-439c-a14e-758fad5c3114.png)
 ![image](https://user-images.githubusercontent.com/87671757/216219426-bd3a4156-36d1-4f42-ab56-b01d85eb3e4a.png)
+  
+## NBA_Team_Analytics_Pipeline_V2.ipynb
+#### Data Webscraping
+This code segment scrapes NBA individial player boxscore data for all players for the 2022-2023 regular season from stats.nba.com, espn.com and basketball-reference.com using a request to a specific URL with parameters to filter the data. It retrieves the data in JSON format and converts it into a pandas DataFrame. The DataFrame is then modified to include additional columns with statistics related to field goals made, attempted, and points, as well as other more advanced statistics such as distance and shot type. It also adds columns for the team's conference, whether the game was played at home or away, and a formatted date and matchup string. Codel as well scrapes player height, weight, salary, college, bio and playoff and allstar history.
+  
+#### Visualization Functions
+##### def team_players_stat_whisker
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/2f54158c-e9c5-4c9e-809f-4fcb6d2884df)
 
-# NBA Player Report Visulations Output Example:
+##### def team_players_stat_bar
+![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/1bacf81b-88ac-498d-852e-713165e321b8)
+##### def player_stat_plot
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/14cc2e22-546d-4fcc-8efb-ee538cd5b27f)
+##### def player_pra_violins()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/1ad70f5d-7477-4fee-904b-818df43c8181)
+##### def player_shooter_pies()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/b4351946-3c19-4d4d-8229-d369900817a0)
+##### def player_stat_reg_analysis_all_perf()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/45f14334-d696-4ef5-a5c9-41eaef9305ac)
+##### def player_reg_analysis_sal_avg()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/08df47b3-a2f2-466f-8ddf-14d01136b698)
+##### def multi_lin_reg()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/05c3983e-ed99-4025-89b1-e494fb2273b7)
+##### def scatter_3d()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/f9b3bdb9-e22c-4cf9-a3b0-bc3ecba41be6)
+##### def display_player_image()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/e4364707-2baf-4e28-a604-227d2d21fcd0)
+##### def player_avg_leaders()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/3c571867-82ce-44c8-b1ea-ec299df12df4)
+##### def player_total_leaders()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/6af66e43-1636-4768-a2a9-7076cab6f595)
+##### def player_stat_count_hist9()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/7b1bd83d-ea8f-4234-8a54-1d6e32ec0ad3)
+##### def stat_hist()
+  ![image](https://github.com/petermartens98/NBA-Analytics-Pipeline/assets/87671757/d972ea08-ff24-4ac7-aee4-430eb0990915)
+  
+#### NBA Player Report Visulations Output Example:
 
 ![image](https://user-images.githubusercontent.com/87671757/216218031-e24163fd-ed3a-4ca7-86f0-b5485a0cb23e.png)
 ![image](https://user-images.githubusercontent.com/87671757/216218377-ca8740ea-2d17-42de-a8ea-6d081fd4d08e.png)
